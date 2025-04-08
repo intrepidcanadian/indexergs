@@ -1,12 +1,14 @@
 # yaml-language-server: $schema=./node_modules/envio/evm.schema.json
 name: uni_v3
 networks:
-- id: 43114
-  start_block: 0
+- id: 1030
+  start_block: 119633031 
+  rpc_config:
+    url: https://evm.confluxrpc.com
   contracts:
   - name: UniswapV3Factory
     # address: 0x1F98431c8aD98523631AE4a59f267346ea31F984
-    address: 0x740b1c1de25031C31FF4fC9A62f554A55cdC1baD
+    address: 0x62Aa0294cB42Aae39b7772313eAdfa5d489146eC
     handler: src/EventHandlers.ts
     events:
     - event: PoolCreated(address indexed token0, address indexed token1, uint24 indexed fee, int24 tickSpacing, address pool)
