@@ -4,6 +4,8 @@
 > [!NOTE]
 > Tokens in this indexer doesn't have the `totalSupply` field as it cannot be updated correctly
 
+Use Unifra
+
 
 ## Queries for pool listing
 
