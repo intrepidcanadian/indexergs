@@ -4,7 +4,7 @@ networks:
 - id: 1030
   start_block: 119633031 
   rpc_config:
-    url: https://cfx-espace.unifra.io/v1/e6394f0301d24230986ff325150a9899
+    url: https://cfx-espace.unifra.io/v1/4b16c91e99544e81812fa1981e8b0e94
   contracts:
   - name: UniswapV3Factory
     # address: 0x1F98431c8aD98523631AE4a59f267346ea31F984
